@@ -7,7 +7,9 @@ Task 02 -> Completed.
 
 Task 03 -> Completed.
 
-Task 04 -> In Progress.
+Task 04 -> Completed.
+
+Task 05 -> Inprogress.
 
 TODO:
 Need to update each Task info.
