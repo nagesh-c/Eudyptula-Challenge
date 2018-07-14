@@ -1,3 +1,6 @@
 [submodule "Task02/linux"]
 	path = Task02/linux
 	url = https://github.com/torvalds/linux.git
+[submodule "linux"]
+	path = linux
+	url = https://github.com/torvalds/linux.git
