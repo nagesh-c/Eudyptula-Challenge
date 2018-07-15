@@ -1,0 +1,14 @@
+/* Driver loading. */
+[  295.263244] skeleton_usb: loading out-of-tree module taints kernel.
+[  295.263282] skeleton_usb: module verification failed: signature and/or required key missing - tainting kernel
+[  295.263502] hello!! world
+[  295.263522] usbcore: registered new interface driver skeleton_usb_driver
+
+/* USB connect. */
+[  456.331842] USB connected to system.
+[  456.399797] usbcore: registered new interface driver usb-storage
+[  456.418494] usbcore: registered new interface driver uas
+
+/* USB disconnect. */
+[  554.509014] usb 3-3: USB disconnect, device number 2
+[  554.509140] USB disconnected from system.
