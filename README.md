@@ -9,7 +9,6 @@ Task 03 -> Completed.
 
 Task 04 -> Completed.
 
-Task 05 -> Inprogress.
+Task 05 -> Completed.
 
-TODO:
-Need to update each Task info.
+Task 06 -> YTD.
