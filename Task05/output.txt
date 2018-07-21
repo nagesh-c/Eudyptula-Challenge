@@ -1,14 +1,17 @@
-/* Driver loading. */
-[  295.263244] skeleton_usb: loading out-of-tree module taints kernel.
-[  295.263282] skeleton_usb: module verification failed: signature and/or required key missing - tainting kernel
-[  295.263502] hello!! world
-[  295.263522] usbcore: registered new interface driver skeleton_usb_driver
+[ 1399.833712] hello!! world
+[ 1412.794944] usb 2-2: USB disconnect, device number 3
+[ 1416.140731] usb 2-2: new low-speed USB device number 5 using xhci_hcd
+[ 1416.294407] usb 2-2: New USB device found, idVendor=046d, idProduct=c31d
+[ 1416.294413] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 1416.294418] usb 2-2: Product: USB Keyboard
+[ 1416.294421] usb 2-2: Manufacturer: Logitech
+[ 1416.300444] input: Logitech USB Keyboard as
+/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/0003:046D:C31D.0004/input/input13
+[ 1416.357623] hid-generic 0003:046D:C31D.0004: input,hidraw1: USB HID
+v1.10 Keyboard [Logitech USB Keyboard] on usb-0000:00:14.0-2/input0
+[ 1416.363730] input: Logitech USB Keyboard as
+/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.1/0003:046D:C31D.0005/input/input14
+[ 1416.421281] hid-generic 0003:046D:C31D.0005: input,hidraw2: USB HID
+v1.10 Device [Logitech USB Keyboard] on usb-0000:00:14.0-2/input1
+[ 1458.121039] bye!! world
 
-/* USB connect. */
-[  456.331842] USB connected to system.
-[  456.399797] usbcore: registered new interface driver usb-storage
-[  456.418494] usbcore: registered new interface driver uas
-
-/* USB disconnect. */
-[  554.509014] usb 3-3: USB disconnect, device number 2
-[  554.509140] USB disconnected from system.
