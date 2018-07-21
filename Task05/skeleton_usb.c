@@ -5,9 +5,15 @@
 #include <linux/hid.h>
 
 #define AUTHOR		"3adf6a67133f"
-#define LICENSE		"GPL"
+#define LICENSE		"GPL v2"
 #define DESCRIPTION	"An USB Driver"
 
+/*
+ * HID: Human Interface Device: Keyboard and Mouse
+ * USB_INTERFACE_INFO is a macro, which takes 3 parameter.
+ * a) class b) subclass c) device, and assign them to a
+ * structure members.
+ */
 static const struct usb_device_id id_table[] = {
 	{USB_INTERFACE_INFO(USB_INTERFACE_CLASS_HID,
 			    USB_INTERFACE_SUBCLASS_BOOT,
