@@ -19,6 +19,6 @@ static void __exit hello2_cleanup(void)
 module_init(hello2_init);
 module_exit(hello2_cleanup);
 
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("GPL v2");
 MODULE_AUTHOR(AUTHOR);
 MODULE_DESCRIPTION(DESC);
